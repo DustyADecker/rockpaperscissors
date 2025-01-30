@@ -1,5 +1,5 @@
 function getComputerChoice {
-
+    let number = Math.random;
 }
 
 /* 
