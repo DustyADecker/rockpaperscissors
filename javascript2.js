@@ -11,12 +11,15 @@ return result;
 }
 */
 
-let number = Math.random;
+let number = Math.random();
 let result;
-
-if (number < 0.5) {
-    result = "Number is less than 0.5."
+console.log(number);
+if (number >= 0 && number <= 0.33) {
+    result = "Rock!";
+} else if (number > 0.33 && number <= 0.66) {
+    result = "Paper!";
 } else {
-    result = "Number is not less than 0.5."
+    result = "Scissors!"
 }
 alert(result);
+
