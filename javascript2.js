@@ -1,5 +1,5 @@
 function getComputerChoice() {
-    let randomNumber = Math.random(); // Generates a number between 0 (inclusive) and 1 (exclusive)
+    let randomNumber = Math.random();
     console.log(randomNumber);
     if (randomNumber >= 0 && randomNumber <= 0.33) {
       return "Rock!";
@@ -10,3 +10,10 @@ function getComputerChoice() {
     }
   }
   alert(getComputerChoice());
+
+  
+function getHumanChoice() {
+    let input = prompt("Type your guess!", "rock, paper or scissors");
+    console.log(input);
+}
+console.log(getHumanChoice());
